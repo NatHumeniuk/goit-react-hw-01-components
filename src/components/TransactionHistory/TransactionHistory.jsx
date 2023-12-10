@@ -10,7 +10,7 @@ import {
 export const TransactionHistory = ({ items }) => {
   return (
     <>
-      <Table class="transaction-history">
+      <Table>
         <TableHead>
           <tr>
             <CellHead>Type</CellHead>

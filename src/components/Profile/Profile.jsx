@@ -19,7 +19,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <Wrapper>
       <Description>
-        <Photo src={avatar} alt="User avatar" class="avatar" />
+        <Photo src={avatar} alt="User avatar" />
         <Name>{username}</Name>
         <Tag>@{tag}</Tag>
         <Location>{location}</Location>
